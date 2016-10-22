@@ -14,20 +14,7 @@ mockapp.parseConfig = function (o, d){
   }
   return d;
 }
-mockapp.waitEvent = function(e, callback){
-  var cehck = function(){
-    if(mockapp[e]){
-      callback();
-    } else {
-      cehck();
-    }
-  }
-  cehck();
-}
 
-if(!mockapp.isDevice()){
-  mockapp.onReady=true;
-}
 document.addEventListener("deviceready", function(){
   mockapp.onReady=true;
 }, false);
