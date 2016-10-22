@@ -25,6 +25,19 @@ body {
 .right {
   float: right;
 }
+.radius {
+  border-radius: 2px;
+}
+.radius.image img {
+  border-radius: 2px;
+}
+.shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.block {
+  display: block;
+}
 .component-not-installed {
   padding: 10px;
   margin: 10px;
@@ -50,6 +63,8 @@ body {
 button.icon {
   background: none;
   border: none;
+  padding: 0;
+  margin: 0;
 }
 button {
   -webkit-transition: color 500ms ease;
@@ -57,6 +72,22 @@ button {
   -ms-transition: color 500ms ease;
   -o-transition: color 500ms ease;
   transition: color 500ms ease;
+  padding: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: -webkit-baseline-middle;
+  position: relative;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: 0;
+}
+button:active {
+  opacity: 0.8;
+}
+button.small {
+  font-size: 12px;
+  padding: 7px;
 }
 @keyframes color-mockapp {
   0% {
@@ -99,7 +130,6 @@ button {
   display: inline-block;
   font-weight: 400;
   font-size: 18px;
-  margin-left: 10px;
 }
 .header button {
   font-size: 20px;
@@ -115,6 +145,16 @@ button {
 }
 .header .right button {
   margin-left: 8px;
+}
+
+/*BOX*/
+.box {
+  width: 100%;
+}
+
+/*IMAGE*/
+.image img {
+  min-width: 100%;
 }
 
 /*CONTENT*/
