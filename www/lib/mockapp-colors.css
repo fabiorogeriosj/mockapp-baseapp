@@ -1,6 +1,36 @@
 .red, .red-500 { color: #F44336; }
+.red-50 { color: #ffebee; }
+.red-100 { color: #ffcdd2; }
+.red-200 { color: #ef9a9a; }
+.red-300 { color: #e57373; }
+.red-400 { color: #ef5350; }
+.red-600 { color: #e53935; }
+.red-700 { color: #d32f2f; }
+.red-800 { color: #c62828; }
+.red-900 { color: #b71c1c; }
+
 .pink, .pink-500 { color: #E91E63; }
+.pink-50 { color: #fce4ec; }
+.pink-100 { color: #f8bbd0; }
+.pink-200 { color: #f48fb1; }
+.pink-300 { color: #f06292; }
+.pink-400 { color: #ec407a; }
+.pink-600 { color: #d81b60; }
+.pink-700 { color: #c2185b; }
+.pink-800 { color: #ad1457; }
+.pink-900 { color: #880e4f; }
+
 .purple, .purple-500 { color: #9C27B0; }
+.purple-50 { color: #f3e5f5; }
+.purple-100 { color: #e1bee7; }
+.purple-200 { color: #ce93d8; }
+.purple-300 { color: #ba68c8; }
+.purple-400 { color: #ab47bc; }
+.purple-600 { color: #8e24aa; }
+.purple-700 { color: #7b1fa2; }
+.purple-800 { color: #6a1b9a; }
+.purple-900 { color: #4a148c; }
+
 .deep-purple, .deep-purple-500 { color: #673AB7; }
 .indigo, .indigo-500 { color: #3F51B5; }
 .blue, .blue-500 { color: #2196F3; }
@@ -21,8 +51,15 @@
 .white { color: #FFFFFF; }
 
 .content.red, .header.red, button.red, .header.red-500, button.red-500 { background-color: #F44336; color: #fff; }
-.content.pink, .header.pink, button.pink, .header.pink-500, button.pink-500 { background-color: #E91E63; color: #fff; }
+.content.pink, .header.pink, button.pink, .header.pink-500, button.pink-500 { background-color: #F3E5F5; color: #fff; }
+
 .content.purple, .header.purple, button.purple, .header.purple-500, button.purple-500 { background-color: #9C27B0; color: #fff; }
+.content.purple-50, .header.purple-50, button.purple-50 { background-color: #F3E5F5; color: rgba(0, 0, 0, 0.87); }
+.content.purple-100, .header.purple-100, button.purple-100 { background-color: #E1BEE7; color: rgba(0, 0, 0, 0.87); }
+.content.purple-600, .header.purple-600, button.purple-600 { background-color: #8E24AA; color: #fff; }
+.content.purple-700, .header.purple-700, button.purple-700 { background-color: #7B1FA2; color: #fff; }
+.content.purple-800, .header.purple-800, button.purple-800 { background-color: #6A1B9A; color: #fff; }
+
 .content.deep- .header.deep-purple, button.deep-purple, .header.deep-purple-500, button.deep-purple-500 { background-color: #673AB7; color: #fff; }
 .content.indigo, .header.indigo, button.indigo, .header.indigo-500, button.indigo-500 { background-color: #3F51B5; color: #fff; }
 .content.blue, .header.blue, button.blue, .header.blue-500, button.blue-500 { background-color: #2196F3; color: #fff; }

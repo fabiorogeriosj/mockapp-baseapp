@@ -19,11 +19,17 @@ body {
     padding:0px;
     width:100%;
 }
+p {
+  font-size: 14px;
+}
 .left {
   float: left;
 }
 .right {
   float: right;
+}
+.italic {
+  font-style: italic;
 }
 .component-not-installed {
   padding: 10px;
@@ -46,6 +52,9 @@ body {
 }
 .padding {
   padding: 10px;
+}
+.big {
+  font-size: 150px;
 }
 button.icon {
   background: none;
@@ -92,6 +101,9 @@ button {
   z-index: 100;
   padding-top: 14px;
 }
+.header.sub {
+  top: 52px;
+}
 .header img {
   height: 30px;
 }
@@ -100,6 +112,9 @@ button {
   font-weight: 400;
   font-size: 18px;
   margin-left: 10px;
+}
+.header p {
+  margin-top: 5px;
 }
 .header button {
   font-size: 20px;
@@ -126,4 +141,7 @@ button {
 }
 .content.has-header {
   margin-top: 52px;
+}
+.content.has-header.has-sub {
+  margin-top: 104px;
 }
